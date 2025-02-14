@@ -4,7 +4,7 @@ import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import session from 'express-session';
 import passport from 'passport';
-import "./Auth/AuthMiddleware";
+import "./Auth/authMiddleware";
 import { authRoutes } from './Auth/authRoutes';
 dotenv.config();
 const app = express();
