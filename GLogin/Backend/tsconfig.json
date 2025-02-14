@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",              // Use latest JavaScript version
+    "module": "CommonJS",            // Use CommonJS module system
+    "moduleResolution": "node",      // Resolve modules like Node.js
+    "outDir": "./dist",              // Output compiled files in the dist folder
+    "esModuleInterop": true,         // Allow importing CommonJS modules as ES Modules
+    "skipLibCheck": true,            // Skip type checking in library files for faster builds
+    "strict": true,                  // Enable strict type-checking
+    "resolveJsonModule": true        // Allow importing JSON files
+  },
+  "include": ["src/**/*.ts"],         // Include all TypeScript files in the src folder
+  "exclude": ["node_modules", "dist"] // Exclude node_modules and dist folder
+}
